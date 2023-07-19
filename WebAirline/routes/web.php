@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('trangchu', function () {
+    return view('client.home');
+});
+
+Route::prefix('up-admin')->group(function () {
+    Route::get('upvex-admin', [HomeController::class, 'index'])->name('admin');
+
 });
