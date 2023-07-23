@@ -11,12 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('hang_hang_khong', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('phoneNumber')->nullable();
-            $table->string('email')->unique();
-            $table->string('address')->nullable();
+        Schema::create('quan_ly_hang_hang_khong', function (Blueprint $table) {
+            $table->increments('MaHangHangKhong'); // Khóa chính tự động tăng
+            $table->string('TenHangHangKhong');
+            $table->string('SoDienThoai');
+            $table->string('Email')->unique();
+            $table->string('DiaChi');
             $table->integer('status')->default('1');
             $table->timestamps();
         });
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('hang_hang_khong');
+        Schema::dropIfExists('quan_ly_hang_hang_khong');
     }
 };

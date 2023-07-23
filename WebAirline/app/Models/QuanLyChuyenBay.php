@@ -5,8 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Hanhtrinhbay extends Model
+class QuanLyChuyenBay extends Model
 {
     use HasFactory;
-    protected $table = "hanhtrinhbay";
+    protected $table = 'quan_ly_chuyen_bay'; // Tên bảng trong database
+
 }
