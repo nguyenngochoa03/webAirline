@@ -12,7 +12,7 @@
                 <li class="menu-title">QUẢN TRỊ ADMIN</li>
 
                 <li>
-                    <a href="layouts-sidebar-sm.html">
+                    <a href="{{url('/datve/list')}}">
                         <i class="la la-cube"></i>
                         <span>Quản lý đặt vé </span>
                     </a>

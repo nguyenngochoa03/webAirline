@@ -19,5 +19,7 @@ Route::get('trangchu', function () {
 
 Route::prefix('up-admin')->group(function () {
     Route::get('upvex-admin', [HomeController::class, 'index'])->name('admin');
-
 });
+
+Route::match(['GET','POST'], '/datve/list', [App\Http\Controllers\DatveController::class,'listdatve'])
+->name('route_datve_list');
