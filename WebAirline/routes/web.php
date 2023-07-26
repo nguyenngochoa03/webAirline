@@ -20,6 +20,13 @@ Route::get('trangchu', function () {
 Route::prefix('up-admin')->group(function () {
     Route::get('upvex-admin', [HomeController::class, 'index'])->name('admin');
 });
+Route::middleware('auth')->group(function (){
+    
+    // Route quản lý đặt vé
+    Route::match(['GET','POST'], '/datve/list', [App\Http\Controllers\DatveController::class,'listdatve'])
+        ->name('route_datve_list');
 
-Route::match(['GET','POST'], '/datve/list', [App\Http\Controllers\DatveController::class,'listdatve'])
-->name('route_datve_list');
+    Route::match(['GET','POST'], '/datve/add', [App\Http\Controllers\DatveController::class,'adddatve'])
+        ->name('route_datve_add');
+});
+
