@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\HomeController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,12 +22,13 @@ Route::prefix('up-admin')->group(function () {
     Route::get('upvex-admin', [HomeController::class, 'index'])->name('admin');
 });
 Route::middleware('auth')->group(function (){
-    
-    // Route quản lý đặt vé
-    Route::match(['GET','POST'], '/datve/list', [App\Http\Controllers\DatveController::class,'listdatve'])
-        ->name('route_datve_list');
 
-    Route::match(['GET','POST'], '/datve/add', [App\Http\Controllers\DatveController::class,'adddatve'])
-        ->name('route_datve_add');
+
 });
 
+// Route quản lý đặt vé
+Route::match(['GET','POST'], '/datve/list', [\App\Http\Controllers\Admin\DatveController::class,'listdatve'])
+    ->name('route_datve_list');
+
+Route::match(['GET','POST'], '/datve/add', [\App\Http\Controllers\Admin\DatveController::class,'adddatve'])
+    ->name('route_datve_add');

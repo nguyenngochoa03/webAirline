@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('quanlydatve', function (Blueprint $table) {
             $table->bigIncrements('MaDatVe'); // Khóa chính tự động tăng
+            $table->string('Name');
             $table->date('NgayDatVe');
             $table->date('NgayKhoiHanh');
             $table->string('HanhKhach');
