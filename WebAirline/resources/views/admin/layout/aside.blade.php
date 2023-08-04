@@ -33,7 +33,7 @@
 
                 </li>
                 <li>
-                    <a href="layouts-sidebar-sm.html">
+                    <a href="{{url('/magiamgia/list')}}">
                         <i class="la la-envelope"></i>
                         <span>Quản lý mã giảm giá</span>
                     </a>

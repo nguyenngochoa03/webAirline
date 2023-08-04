@@ -16,10 +16,10 @@ return new class extends Migration
             $table->string('Name');
             $table->date('NgayDatVe');
             $table->date('NgayKhoiHanh');
-            $table->string('HanhKhach');
+            $table->string('HanhKhach')->nullable();
             $table->integer('SoLuongVe');
             $table->decimal('GiaVe', 10, 2);
-            $table->string('TrangThaiDatVe');
+            $table->string('TrangThaiDatVe')->nullable();
             $table->integer('status')->default('1');
             $table->timestamps();
         });

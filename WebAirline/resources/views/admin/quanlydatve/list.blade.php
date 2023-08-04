@@ -65,8 +65,8 @@
 
                         <td>
                             <a href="{{url('/datve/add')}}" class="btn btn-xs btn-light"><i class="mdi mdi-plus"></i></a>
-                            <a href="javascript: void(0);" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
-                            <a href="javascript: void(0);" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
+                            <a href="{{url('/datve/edit', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
+                            <a href="{{url('/datve/delete', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
                         </td>
 
                     </tr>

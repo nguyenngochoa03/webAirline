@@ -11,7 +11,7 @@ class QuanLyDatVeRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -31,13 +31,41 @@ class QuanLyDatVeRequest extends FormRequest
                         $rules = [
                             "Name" => "required",
                             "NgayDatVe" => "required|date", // Ví dụ: kiểm tra định dạng ngày
-                            "NgayKhoihanh" => "required|date", // Ví dụ: kiểm tra định dạng ngày
+                            "NgayKhoiHanh" => "required|date", // Ví dụ: kiểm tra định dạng ngày
                             "SoLuong" => "required|integer", // Ví dụ: kiểm tra là số nguyên
                             "GiaVe" => "required|numeric", // Ví dụ: kiểm tra là số thực
                         ];
                         break;
+                    case "editdatve":
+                        $rules = [
+                            'Name' => 'required',
+                            'NgayDatVe' => 'nullable|date', // Cho phép để trống hoặc là định dạng ngày
+                            'NgayKhoiHanh' => 'nullable|date', // Cho phép để trống hoặc là định dạng ngày
+                            'SoLuong' => 'required|integer|min:1', // Kiểm tra là số nguyên và phải lớn hơn hoặc bằng 1
+                            'GiaVe' => 'required|numeric|min:0', // Kiểm tra là số thực và phải lớn hơn hoặc bằng 0
+                        ] ;  
+                        break;
+                        default:
+                        break;
                         endswitch;
+                        break;
         endswitch;
         return $rules;
     }
+    public function messages()
+{
+    return [
+        'Name.required' => 'Bắt buộc phải nhập tên.',
+        'NgayDatVe.required' => 'Bắt buộc phải nhập ngày đặt vé.',
+        'NgayDatVe.date' => 'Ngày đặt vé phải là định dạng ngày.',
+        'NgayKhoiHanh.required' => 'Bắt buộc phải nhập ngày khởi hành.',
+        'NgayKhoiHanh.date' => 'Ngày khởi hành phải là định dạng ngày.',
+        'SoLuong.required' => 'Bắt buộc phải nhập số lượng.',
+        'SoLuong.integer' => 'Số lượng phải là một số nguyên.',
+        'SoLuong.min' => 'Số lượng phải lớn hơn hoặc bằng 1.',
+        'GiaVe.required' => 'Bắt buộc phải nhập giá vé.',
+        'GiaVe.numeric' => 'Giá vé phải là một số thực.',
+        'GiaVe.min' => 'Giá vé phải lớn hơn hoặc bằng 0.',
+    ];
+}
 }
