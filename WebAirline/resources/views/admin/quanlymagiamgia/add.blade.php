@@ -12,38 +12,16 @@
                 </div>
 
                 <div class="card-body">
-                    <form action="{{route('route_datve_add')}}" method="post"  >
+                    <form action="{{route('route_magiamgia_add')}}" method="post"  >
                         @csrf
                         <div class="form-group">
-                            <label for="ticketName">Tên vé<span class="text-danger">*</span></label>
-                            <input type="text" class="form-control"  name="Name" required placeholder="Enter ticket name">
+                            <label for="ticketName">Tên mã giảm giá <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control"  name="TenMaGiamGia" required placeholder="Enter ticket name">
                         </div>
                         <div class="form-group">
-                            <label for="ticketDueDate">Ngày đặt vé</label>
-                            <input type="date" class="form-control"  name="NgayDatVe">
+                            <label for="ticketDueDate"> Giá </label>
+                            <input type="price" class="form-control"  name="GiaGiamGia">
                         </div>
-                        <div class="form-group">
-                            <label for="ticketDueDate">Ngày khởi hành</label>
-                            <input type="date" class="form-control"  name="NgayKhoiHanh">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="ticketDescription">Số lượng vé <span class="text-danger">*</span></label>
-                            <input class="form-control"  name="SoLuong" required rows="4" placeholder="Enter ticket số lượng vé"></input>
-                        </div>
-                        <div class="form-group">
-                            <label for="ticketDescription">Giá vé<span class="text-danger">*</span></label>
-                            <input class="form-control"  name="GiaVe" required rows="4" placeholder="Enter ticket giá vé"></input>
-                        </div>
-{{--                        <div class="form-group">--}}
-{{--                            <label for="ticketPriority">Trạng thái vé <span class="text-danger">*</span></label>--}}
-{{--                            <select class="form-control" id="ticketPriority" name="ticketPriority" required>--}}
-{{--                                <option value="">Select priority</option>--}}
-{{--                                <option value="low">Đ</option>--}}
-{{--                                <option value="medium">Medium</option>--}}
-{{--                                <option value="high">High</option>--}}
-{{--                            </select>--}}
-{{--                        </div>--}}
                         <button type="submit" class="btn btn-dark">Submit</button>
                     </form>
                 </div>

@@ -64,9 +64,9 @@
                         </td>
 
                         <td>
-                            <a href="{{url('/datve/add')}}" class="btn btn-xs btn-light"><i class="mdi mdi-plus"></i></a>
-                            <a href="{{url('/datve/edit', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
-                            <a href="{{url('/datve/delete', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
+                            <a href="{{route('route_datve_add')}}" class="btn btn-xs btn-light"><i class="mdi mdi-plus"></i></a>
+                            <a href="{{route('route_datve_edit', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
+                            <a href="{{route('route_datve_delete', ['MaDatVe' => $datve->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
                         </td>
 
                     </tr>

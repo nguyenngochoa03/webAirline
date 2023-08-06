@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/WebAirline/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/WebAirline/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/WebAirline/tests/Unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/WebAirline/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/WebAirline/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/WebAirline/vendor/spatie/backtrace" />

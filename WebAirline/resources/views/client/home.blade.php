@@ -11,7 +11,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section class="banner-section">
     <div class="banner-element" data-aos="fade-left" data-aos-duration="1200">
-        <img src={{url('client/assets/images/element/element-1.png')}}""alt="element">
+        <img src={{url('client/assets/images/element/element-1.png')}} alt="element">
     </div>
     <div class="banner-element-two">
         <img src={{url('client/assets/images/element/element-3.png')}} alt="element">

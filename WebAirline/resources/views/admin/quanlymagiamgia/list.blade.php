@@ -9,7 +9,7 @@
         <div class="card-box">
 
             <h4 class="header-title mb-3">DANH SÁCH MÃ GIẢM GIÁ <div class="col-xs-1-12">
-                
+
             </div> </h4>
 
             <div class="table-responsive">
@@ -46,9 +46,9 @@
                         </td>
 
                         <td>
-                            <a href="{{url('/magiamgia/add')}}" class="btn btn-xs btn-light"><i class="mdi mdi-plus"></i></a>
-                            <a href="{{url('/magiamgia/edit', ['MaDatVe' => $magiamgia->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
-                            <a href="{{url('/magiamgia/delete', ['MaDatVe' => $magiamgia->MaDatVe])}}" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
+                            <a href="{{route('route_magiamgia_add')}}" class="btn btn-xs btn-light"><i class="mdi mdi-plus"></i></a>
+                            <a href="{{route('route_magiamgia_edit', ['MaGiamGia' => $magiamgia->MaGiamGia])}}" class="btn btn-xs btn-light"><i class="mdi mdi-pencil"></i></a>
+                            <a href="{{route('route_magiamgia_delete', ['MaGiamGia' => $magiamgia->MaGiamGia])}}" class="btn btn-xs btn-light"><i class="mdi mdi-delete"></i></a>
                         </td>
 
                     </tr>

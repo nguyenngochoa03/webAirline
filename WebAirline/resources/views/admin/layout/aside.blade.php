@@ -12,7 +12,7 @@
                 <li class="menu-title">QUẢN TRỊ ADMIN</li>
 
                 <li>
-                    <a href="{{url('/datve/list')}}">
+                    <a href="{{route('route_datve_list')}}">
                         <i class="la la-cube"></i>
                         <span>Quản lý đặt vé </span>
                     </a>
@@ -33,7 +33,7 @@
 
                 </li>
                 <li>
-                    <a href="{{url('/magiamgia/list')}}">
+                    <a href="{{route('route_magiamgia_list')}}">
                         <i class="la la-envelope"></i>
                         <span>Quản lý mã giảm giá</span>
                     </a>

@@ -9,4 +9,5 @@ class QuanLyMaGiamGia extends Model
 {
     use HasFactory;
      protected $table = 'quanlymagiamgia';
+    protected $primaryKey = 'MaGiamGia';
 }

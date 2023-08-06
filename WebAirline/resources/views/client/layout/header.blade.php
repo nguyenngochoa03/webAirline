@@ -17,40 +17,29 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav main-menu ml-auto">
                                 <li class="menu_has_children"><a href="#0">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-two.html">Home Two</a></li>
-                                        <li><a href="index-dark.html">Home Dark</a></li>
-                                    </ul>
                                 </li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li class="menu_has_children"><a href="#0">Pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                        <li><a href="deals.html">Deals</a></li>
-                                        <li><a href="deals-details.html">Deals Details</a></li>
-                                        <li><a href="package.html">Package</a></li>
-                                        <li><a href="package-details.html">Package Details</a></li>
-                                        <li><a href="course.html">Our Course</a></li>
-                                        <li><a href="course-details.html">Course Details</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="register.html">Sign Up</a></li>
-                                        <li><a href="login.html">Sign In</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
+{{--                                        <li><a href="service.html">Service</a></li>--}}
+{{--                                        <li><a href="service-details.html">Service Details</a></li>--}}
+{{--                                        <li><a href="deals.html">Deals</a></li>--}}
+{{--                                        <li><a href="deals-details.html">Deals Details</a></li>--}}
+{{--                                        <li><a href="package.html">Package</a></li>--}}
+{{--                                        <li><a href="package-details.html">Package Details</a></li>--}}
+{{--                                        <li><a href="course.html">Our Course</a></li>--}}
+{{--                                        <li><a href="course-details.html">Course Details</a></li>--}}
+{{--                                        <li><a href="team.html">Our Team</a></li>--}}
+{{--                                        <li><a href="team-details.html">Team Details</a></li>--}}
+{{--                                        <li><a href="faq.html">FAQ</a></li>--}}
+
+{{--                                        <li><a href="404.html">404 Page</a></li>--}}
                                     </ul>
                                 </li>
                                 <li class="menu_has_children"><a href="#0">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-classic.html">Blog Classic</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
                                 </li>
-                                <li><a href="faq.html">Faq</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{url('login')}}">Sign Up</a></li>
                             </ul>
                             <div class="header-right">
                                 <div class="search-bar d-none d-lg-block">
