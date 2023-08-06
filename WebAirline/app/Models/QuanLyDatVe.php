@@ -10,5 +10,7 @@ class QuanLyDatVe extends Model
     use HasFactory;
     protected $table = 'quanlydatve';
     protected $primaryKey = 'MaDatVe'; // Đặt tên cột primary key thích hợp ở đây
-
+     protected $fillable = [
+         'DiemKhoiHanh','DiemDen','NgayDatVe','NgayKhoiHanh','SoLuongVe'
+     ];
 }

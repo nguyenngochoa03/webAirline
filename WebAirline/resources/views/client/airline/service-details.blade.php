@@ -32,49 +32,6 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     End Banner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Start Call-widget
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="call-widget-wrapper">
-        <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> +1 814 929
-                    4263</span> <span class="arrow"></span></button>
-        <div class="call-widget-form-area">
-            <form class="book-form">
-                <div class="row justify-content-center mb-20-none">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                        <div class="book-select">
-                            <label>Điểm Khỏi hanh</label>
-                            <input type="text" name="DiemKhoiHanh" value="{{$data[0]->DiemKhoiHanh}}" placeholder="Departure" />
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                        <div class="book-select">
-                            <label>To</label>
-                            <input type="text" name="to" placeholder="Arrival" />
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                        <div class="book-select">
-                            <label>Date</label>
-                            <input type="date" name="date" />
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
-                        <label>Passenger</label>
-                        <input type="number" name="passengers" min="1" max="100" />
-                    </div>
-                    <div class="col-xl-12 form-group">
-                        <button type="submit" class="btn--base w-100 mt-10">
-                            <i class="icon-btn-icon"></i> Book Now
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    End Call-widget
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -439,30 +396,30 @@
                                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                     <div class="book-select">
                                         <label>Điểm khởi hành</label>
-                                        <input type="text" name="DiemKhoiHanh" value="{{$data[0]->DiemKhoiHanh}}" placeholder="Departure" />
+                                        <input type="text" name="DiemKhoiHanh"  placeholder="Departure" />
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                     <div class="book-select">
                                         <label> Điểm dến</label>
-                                        <input type="text" name="DiemDen" value="{{$data[0]->DiemDen}}" placeholder="Arrival" />
+                                        <input type="text" name="DiemDen" placeholder="Arrival" />
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                     <div class="book-select">
                                         <label>Ngày dặt vé</label>
-                                        <input type="date" name="NgayDatVe" value="{{$data[0]->NgayDatVe}}" />
+                                        <input type="date" name="NgayDatVe"  />
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                     <div class="book-select">
                                         <label>Ngày Khởi hanh</label>
-                                        <input type="date" name="NgayDatVe" value="{{$data[0]->NgayKhoiHanh}}" />
+                                        <input type="date" name="NgayKhoiHanh" />
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
                                     <label> Số lượng vé </label>
-                                    <input type="number" name="SoLuongVe" value="{{$data[0]->SoLuongVe}}" min="1" max="100" />
+                                    <input type="number" name="SoLuongVe"  />
                                 </div>
                                 <div class="col-xl-12 form-group">
                                     <button type="submit" class="btn--base w-100 mt-10">

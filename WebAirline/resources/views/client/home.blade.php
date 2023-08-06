@@ -139,7 +139,7 @@ Start Overview
             <div class="overview-tab">
                 <nav>
                     <div class="overview-tab-thumb" data-aos="fade-left" data-aos-duration="1200">
-                        <img src={{url('client/assets/images/overview/overview-2.png')}}"" alt="overview">
+                        <img src={{url('client/assets/images/overview/overview-2.png')}} alt="overview">
                         <div class="nav-tab-area">
                             <div class="nav-tab-header">
                                 <span class="sub-title"><span>#1</span> Private Jet Charter</span>
@@ -171,14 +171,14 @@ Start Overview
                          aria-labelledby="private-jet-tab">
                         <div class="overview-item">
                             <div class="overview-thumb">
-                                <img src={{url('client/assets/images/overview/overview-1.png')}}"" alt="overview">
+                                <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
                                 <div class="overview-thumb-content">
-                                    <h3 class="title"><a href="service-details.html">Private Jet Charter</a>
+                                    <h3 class="title"><a href="{{url('service')}}">Private Jet Charter</a>
                                     </h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
                                         convenience of travel by private jet.</p>
                                     <div class="overview-btn">
-                                        <a href="service-details.html" class="custom-btn"><i
+                                        <a href="{{url('service')}}" class="custom-btn"><i
                                                 class="icon-btn-icon-v2"></i> Book Now</a>
                                     </div>
                                 </div>
@@ -191,12 +191,12 @@ Start Overview
                             <div class="overview-thumb">
                                 <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
                                 <div class="overview-thumb-content">
-                                    <h3 class="title"><a href="service-details.html">Business Jet Charter</a>
+                                    <h3 class="title"><a href="{{url('service')}}">Business Jet Charter</a>
                                     </h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
                                         convenience of travel by private jet.</p>
                                     <div class="overview-btn">
-                                        <a href="service-details.html" class="custom-btn"><i
+                                        <a href="{{url('service')}}" class="custom-btn"><i
                                                 class="icon-btn-icon-v2"></i> Book Now</a>
                                     </div>
                                 </div>
@@ -209,11 +209,11 @@ Start Overview
                             <div class="overview-thumb">
                                 <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
                                 <div class="overview-thumb-content">
-                                    <h3 class="title"><a href="service-details.html">Private Helicopter</a></h3>
+                                    <h3 class="title"><a href="{{url('service')}}">Private Helicopter</a></h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
                                         convenience of travel by private jet.</p>
                                     <div class="overview-btn">
-                                        <a href="service-details.html" class="custom-btn"><i
+                                        <a href="{{url('service')}}" class="custom-btn"><i
                                                 class="icon-btn-icon-v2"></i> Book Now</a>
                                     </div>
                                 </div>
@@ -226,11 +226,11 @@ Start Overview
                             <div class="overview-thumb">
                                 <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
                                 <div class="overview-thumb-content">
-                                    <h3 class="title"><a href="service-details.html">Air Ambulance</a></h3>
+                                    <h3 class="title"><a href="{{url('service')}}">Air Ambulance</a></h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
                                         convenience of travel by private jet.</p>
                                     <div class="overview-btn">
-                                        <a href="service-details.html" class="custom-btn"><i
+                                        <a href="{{url('service')}}" class="custom-btn"><i
                                                 class="icon-btn-icon-v2"></i> Book Now</a>
                                     </div>
                                 </div>
@@ -272,7 +272,7 @@ Start About
                             <span class="call"><a href="tel:8-800-10-500">8-800-10-500</a></span>
                         </div>
                         <div class="about-book-right">
-                            <a href="service-details.html" class="btn--base"><i class="icon-btn-icon-v2"></i>
+                            <a href="{{url('service')}}" class="btn--base"><i class="icon-btn-icon-v2"></i>
                                 Book Now</a>
                         </div>
                     </div>
@@ -496,7 +496,7 @@ Start Charter
                                         <span class="price">Price: $9,000/ hr</span>
                                     </div>
                                     <div class="charter-btn">
-                                        <a href="service-details.html"><i class="icon-btn-icon-v2"></i> Book
+                                        <a href="{{url('service')}}"><i class="icon-btn-icon-v2"></i> Book
                                             Now</a>
                                     </div>
                                 </div>
@@ -515,7 +515,7 @@ Start Charter
                                         <span class="price">Price: $9,000/ hr</span>
                                     </div>
                                     <div class="charter-btn">
-                                        <a href="service-details.html"><i class="icon-btn-icon-v2"></i> Book
+                                        <a href="{{url('service')}}"><i class="icon-btn-icon-v2"></i> Book
                                             Now</a>
                                     </div>
                                 </div>
@@ -534,7 +534,7 @@ Start Charter
                                         <span class="price">Price: $9,000/ hr</span>
                                     </div>
                                     <div class="charter-btn">
-                                        <a href="service-details.html"><i class="icon-btn-icon-v2"></i> Book
+                                        <a href="{{url('service')}}"><i class="icon-btn-icon-v2"></i> Book
                                             Now</a>
                                     </div>
                                 </div>
@@ -553,7 +553,7 @@ Start Charter
                                         <span class="price">Price: $9,000/ hr</span>
                                     </div>
                                     <div class="charter-btn">
-                                        <a href="service-details.html"><i class="icon-btn-icon-v2"></i> Book
+                                        <a href="{{url('service')}}"><i class="icon-btn-icon-v2"></i> Book
                                             Now</a>
                                     </div>
                                 </div>
@@ -582,58 +582,41 @@ Start Book-form
                         <span class="sub-title text-white"><span>Flynext</span> Book</span>
                         <h2 class="section-title">Book A Personal Flight</h2>
                     </div>
-                    <form class="book-form">
+                    <form class="book-form" action="{{route('route_datveup_add')}}" method="post" >
+                        @csrf
                         <div class="row justify-content-center mb-20-none">
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                 <div class="book-select">
-                                    <label>From</label>
-                                    <div class="book-form-icon">
-                                        <i class="icon-from-airplane"></i>
-                                    </div>
-                                    <select class="book-select form--control">
-                                        <option value="dhaka" selected>Dhaka</option>
-                                        <option value="london">London</option>
-                                    </select>
+                                    <label>Điểm khởi hành</label>
+                                    <input type="text" name="DiemKhoiHanh"  placeholder="Departure" />
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                 <div class="book-select">
-                                    <label>To</label>
-                                    <div class="book-form-icon">
-                                        <i class="icon-to-airplane"></i>
-                                    </div>
-                                    <select class="book-select form--control">
-                                        <option value="london" selected>London</option>
-                                        <option value="dhaka">Dhaka</option>
-                                    </select>
+                                    <label> Điểm dến</label>
+                                    <input type="text" name="DiemDen" placeholder="Arrival" />
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                 <div class="book-select">
-                                    <label>Date</label>
-                                    <div class="book-form-icon">
-                                        <i class="icon-schedule-icon"></i>
-                                    </div>
-                                    <select class="book-select form--control">
-                                        <option value="25/12/2021" selected>25/12/2021</option>
-                                        <option value="30/12/2021">30/12/2021</option>
-                                    </select>
+                                    <label>Ngày dặt vé</label>
+                                    <input type="date" name="NgayDatVe"  />
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
-                                <label>Passenger</label>
-                                <div class="book-quantity">
-                                    <div class="book-plus-minus">
-                                        <div class="dec qtybutton">-</div>
-                                        <input class="book-plus-minus-box qty" type="text" name="qty" value="1"
-                                               readonly>
-                                        <div class="inc qtybutton">+</div>
-                                    </div>
+                                <div class="book-select">
+                                    <label>Ngày Khởi hanh</label>
+                                    <input type="date" name="NgayKhoiHanh" />
                                 </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
+                                <label> Số lượng vé </label>
+                                <input type="number" name="SoLuongVe"  />
                             </div>
                             <div class="col-xl-12 form-group">
-                                <button type="submit" class="btn--base ml-auto mr-auto mt-30"><i
-                                        class="icon-btn-icon"></i> Book Now</button>
+                                <button type="submit" class="btn--base w-100 mt-10">
+                                    <i class="icon-btn-icon"></i> Book Now
+                                </button>
                             </div>
                         </div>
                     </form>
@@ -655,7 +638,7 @@ Start Package
         <img src="" alt="element">
     </div>
     <div class="package-element-two" data-aos="fade-left" data-aos-duration="1200">
-        <img src="{{url('assets/images/element/element-1.png')}}" alt="element">
+        <img src={{url('assets/images/element/element-1.png')}} alt="element">
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -673,7 +656,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src="assets/images/package/package-9.png" alt="package">
+                                    <img src={{url('client/assets/images/package/package-9.png')}} alt="package">
                                     <div class="package-prize">
                                         <span>$115.00</span>
                                     </div>
@@ -696,7 +679,7 @@ Start Package
                                             <div class="package-video">
                                                 <a data-rel="lightcase:myCollection"
                                                    href="https://www.youtube.com/embed/Hw4ctvV25H0">
-                                                    <img src="assets/images/icon/icon-17.png" alt="icon">
+                                                    <img src="{{url('client/assets/images/icon/icon-17.png')}}" alt="icon">
                                                 </a>
                                             </div>
                                         </div>
@@ -707,7 +690,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src="assets/images/package/package-10.png" alt="package">
+                                    <img src={{url('client/assets/images/package/package-10.png')}} alt="package">
                                     <div class="package-prize">
                                         <span>$110.00</span>
                                     </div>
@@ -730,7 +713,7 @@ Start Package
                                             <div class="package-video">
                                                 <a data-rel="lightcase:myCollection"
                                                    href="https://www.youtube.com/embed/Hw4ctvV25H0">
-                                                    <img src="assets/images/icon/icon-17.png" alt="icon">
+                                                    <img src="{{url('assets/images/icon/icon-17.png')}}" alt="icon">
                                                 </a>
                                             </div>
                                         </div>
@@ -741,7 +724,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src="assets/images/package/package-11.png" alt="package">
+                                    <img src={{url('client/assets/images/package/package-11.png')}} alt="package">
                                     <div class="package-prize">
                                         <span>$120.00</span>
                                     </div>
@@ -764,7 +747,7 @@ Start Package
                                             <div class="package-video">
                                                 <a data-rel="lightcase:myCollection"
                                                    href="https://www.youtube.com/embed/Hw4ctvV25H0">
-                                                    <img src="assets/images/icon/icon-17.png" alt="icon">
+                                                    <img src={{url('client/assets/images/icon/icon-17.png')}} alt="icon">
                                                 </a>
                                             </div>
                                         </div>
@@ -794,7 +777,7 @@ Start Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section class="client-section ptb-120">
     <div class="client-element">
-        <img src="assets/images/client/map.png" alt="map">
+        <img src="{{url('client/assets/images/client/map.png')}}" alt="map">
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -815,10 +798,10 @@ Start Client
                                     <div class="client-item">
                                         <div class="client-header">
                                             <div class="client-quote">
-                                                <img src="assets/images/client/quote.png" alt="client">
+                                                <img src={{url('client/assets/images/client/quote.png')}} alt="client">
                                             </div>
                                             <div class="client-thumb">
-                                                <img src="assets/images/client/client-3.png" alt="client">
+                                                <img src={{url('client/assets/images/client/client-3.png')}} alt="client">
                                             </div>
                                         </div>
                                         <div class="client-content">
@@ -846,10 +829,10 @@ Start Client
                                     <div class="client-item">
                                         <div class="client-header">
                                             <div class="client-quote">
-                                                <img src="assets/images/client/quote.png" alt="client">
+                                                <img src={{url('client/assets/images/client/quote.png')}} alt="client">
                                             </div>
                                             <div class="client-thumb">
-                                                <img src="assets/images/client/client-4.png" alt="client">
+                                                <img src={{url('client/aassets/images/client/client-4.png')}} alt="client">
                                             </div>
                                         </div>
                                         <div class="client-content">
@@ -879,7 +862,7 @@ Start Client
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="client-right-thumb">
-                        <img src="assets/images/client/client-big.png" alt="client">
+                        <img src={{url('client/assets/images/client/client-big.png')}} alt="client">
                         <div class="client-thumb-overlay">
                             <div class="video-main">
                                 <div class="promo-video">
@@ -917,27 +900,27 @@ Start Brand
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src="assets/images/brand/brand-1.png" alt="brand">
+                                <img src={{url('client/assets/images/brand/brand-1.png')}} alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src="assets/images/brand/brand-2.png" alt="brand">
+                                <img src={{url('client/assets/images/brand/brand-2.png')}} alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src="assets/images/brand/brand-3.png" alt="brand">
+                                <img src={{url('client/assets/images/brand/brand-3.png')}} alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src="assets/images/brand/brand-4.png" alt="brand">
+                                <img src={{url('client/assets/images/brand/brand-4.png')}} alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src="assets/images/brand/brand-5.png" alt="brand">
+                                <img src={{url('client/assets/images/brand/brand-5.png')}} alt="brand">
                             </div>
                         </div>
                     </div>
@@ -968,7 +951,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src="assets/images/blog/blog-1.png" alt="blog">
+                        <img src={{url('client/assets/images/blog/blog-1.png')}} alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">
@@ -988,7 +971,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src="assets/images/blog/blog-2.png" alt="blog">
+                        <img src={{url('client/assets/images/blog/blog-2.png')}} alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">
@@ -1008,7 +991,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src="assets/images/blog/blog-3.png" alt="blog">
+                        <img src={{url('client/assets/images/blog/blog-3.png')}} alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">

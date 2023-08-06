@@ -16,7 +16,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav main-menu ml-auto">
-                                <li class="menu_has_children"><a href="#0">Home</a>
+                                <li class="menu_has_children"><a href="{{url('trangchu')}}">Home</a>
                                 </li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li class="menu_has_children"><a href="{{url('ariline')}}">Pages</a>
@@ -40,10 +40,10 @@
                                     </div>
                                 </div>
                                 <div class="header-action-area">
-                                    <a href="service-details.html" class="action-btn two"><i
+                                    <a href="{{url('service')}}" class="action-btn two"><i
                                             class="icon-btn-icon"></i></a>
                                     <div class="header-action">
-                                        <a href="service-details.html" class="btn--base"><i
+                                        <a href="{{url('service')}}" class="btn--base"><i
                                                 class="icon-btn-icon"></i> Book Now</a>
                                     </div>
                                 </div>

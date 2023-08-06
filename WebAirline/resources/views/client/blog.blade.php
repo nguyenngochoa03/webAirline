@@ -133,7 +133,7 @@ Start Blog
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <div class="blog-thumb">
-                                        <img src="assets/images/blog/blog-2.png" alt="blog">
+                                        <img src="{{url('client/assets/images/blog/blog-2.png')}}" alt="blog">
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-post-meta">
@@ -154,7 +154,7 @@ friends to travel in luxury, comfort and privacy. </p>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <div class="blog-thumb">
-                                        <img src="assets/images/blog/blog-3.png" alt="blog">
+                                        <img src="{{url('client/assets/images/blog/blog-3.png')}}" alt="blog">
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-post-meta">
@@ -175,7 +175,7 @@ and we value the experience of the journey</p>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <div class="blog-thumb">
-                                        <img src="assets/images/blog/blog-1.png" alt="blog">
+                                        <img src="{{url('client/assets/images/blog/blog-1.png')}}" alt="blog">
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-post-meta">
@@ -196,7 +196,7 @@ and we value the experience of the journey</p>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <div class="blog-thumb">
-                                        <img src="assets/images/blog/blog-1.png" alt="blog">
+                                        <img src="{{url('client/assets/images/blog/blog-1.png')}}" alt="blog">
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-post-meta">
@@ -217,7 +217,7 @@ and we value the experience of the journey</p>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <div class="blog-thumb">
-                                        <img src="assets/images/blog/blog-2.png" alt="blog">
+                                        <img src="{{url('client/assets/images/blog/blog-2.png')}}" alt="blog">
                                     </div>
                                     <div class="blog-content">
                                         <div class="blog-post-meta">
@@ -253,7 +253,7 @@ and we value the experience of the journey</p>
                                 <div class="popular-widget-box">
                                     <div class="single-popular-item d-flex flex-wrap align-items-center">
                                         <div class="popular-item-thumb">
-                                            <img src="assets/images/blog/small-blog-1.png" alt="blog">
+                                            <img src="{{url('client/assets/images/blog/small-blog-1.png')}}" alt="blog">
                                         </div>
                                         <div class="popular-item-content">
                                             <span class="blog-date">Aug 23,2021</span>
@@ -263,7 +263,7 @@ and we value the experience of the journey</p>
                                     </div>
                                     <div class="single-popular-item d-flex flex-wrap align-items-center">
                                         <div class="popular-item-thumb">
-                                            <img src="assets/images/blog/small-blog-2.png" alt="blog">
+                                            <img src="{{url('client/assets/images/blog/small-blog-2.png')}}" alt="blog">
                                         </div>
                                         <div class="popular-item-content">
                                             <span class="blog-date">Aug 23,2021</span>
@@ -273,7 +273,7 @@ and we value the experience of the journey</p>
                                     </div>
                                     <div class="single-popular-item d-flex flex-wrap align-items-center">
                                         <div class="popular-item-thumb">
-                                            <img src="assets/images/blog/small-blog-3.png" alt="blog">
+                                            <img src="{{url('client/assets/images/blog/small-blog-3.png')}}" alt="blog">
                                         </div>
                                         <div class="popular-item-content">
                                             <span class="blog-date">Aug 23,2021</span>
@@ -283,7 +283,7 @@ transparency</a></h5>
                                     </div>
                                     <div class="single-popular-item d-flex flex-wrap align-items-center">
                                         <div class="popular-item-thumb">
-                                            <img src="assets/images/blog/small-blog-4.png" alt="blog">
+                                            <img src="{{url('client/assets/images/blog/small-blog-4.png')}}" alt="blog">
                                         </div>
                                         <div class="popular-item-content">
                                             <span class="blog-date">Aug 23,2021</span>
