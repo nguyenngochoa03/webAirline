@@ -17,7 +17,8 @@ class QuanLyDatVeFactory extends Factory
     public function definition(): array
     {
         return [
-            'Name'=> $this->faker->name(),
+            'DiemKhoiHanh'=>$this->faker->name(),
+            'DiemDen'=>$this->faker->name(),
             'NgayDatVe' => $this->faker->date(),
             'NgayKhoiHanh' => $this->faker->date(),
             'HanhKhach' => $this->faker->name,

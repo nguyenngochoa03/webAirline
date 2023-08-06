@@ -17,8 +17,12 @@
                                 @csrf
 
                                 <div class="form-group">
-                                    <label for="ticketName">Tên vé<span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" name="Name" required placeholder="Enter ticket name" value="{{$value->Name}}">
+                                    <label for="ticketName">Điểm khởi hành<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control"  name="DiemKhoiHanh" value="{{$value->DiemKhoiHanh}}" required placeholder="Enter ticket name ">
+                                </div>
+                                <div class="form-group">
+                                    <label for="ticketName">Điểm dến <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control"  name="DiemDen" value="{{$value->DiemDen}}"  required placeholder="Enter ticket name ">
                                 </div>
                                 <div class="form-group">
                                     <label for="ticketDueDate">Ngày đặt vé</label>

@@ -17,6 +17,8 @@
                     <thead class="thead-light">
                     <tr>
                         <th>Mã Đặt vé</th>
+                        <th> Điểm khởi hành </th>
+                        <th>Điểm ddến</th>
                         <th>Ngày đặt vé </th>
                         <th>Ngày khởi hành</th>
                         <th>Hành Khách</th>
@@ -34,7 +36,12 @@
                         <td>
                             <h5 class="m-0 font-weight-normal">{{$datve->MaDatVe}}</h5>
                         </td>
-
+                        <td>
+                            {{$datve->DiemKhoiHanh}}
+                        </td>
+                        <td>
+                            {{$datve->DiemDen}}
+                        </td>
                         <td>
                             {{$datve->NgayDatVe}}
                         </td>

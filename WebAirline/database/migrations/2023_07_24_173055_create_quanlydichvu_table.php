@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('TenDichVu');
             $table->text('MoTaDichVu');
             $table->decimal('GiaDichVu', 10, 2);
-            $table->string('HinhAnh');
+            $table->string('HinhAnh')->nullable();
             $table->integer('status')->default('1');
             $table->timestamps();
         });

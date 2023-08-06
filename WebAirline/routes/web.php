@@ -18,6 +18,12 @@ use App\Http\Controllers\Client\ClientController;
 */
 
 Route::get('trangchu', function () {return view('client.home');})->name('trangchu');
+Route::get('blog', [ClientController::class, 'blog_air'])->name('blog_air');
+Route::get('ariline', [ClientController::class, 'air_404'])->name('air_404');
+Route::get('service', [ClientController::class, 'details'])->name('details');
+Route::match(['GET','POST'], '/datve/add', [App\Http\Controllers\Admin\DatveController::class,'adddatve'])
+    ->name('route_datveup_add');
+
 Route::match(['GET', 'POST'],'login', [LoginController::class, 'login'])->name('login');
 Route::match(['GET', 'POST'],'register', [LoginController::class, 'register'])->name('register');
 Route::post('register', [LoginController::class,'register'])->name('register');

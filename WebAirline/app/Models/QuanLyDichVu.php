@@ -9,4 +9,5 @@ class QuanLyDichVu extends Model
 {
     use HasFactory;
     protected $table = 'quanlydichvu';
+    protected $primaryKey = 'MaDichVu'; // Đặt tên cột primary key thích hợp ở đây
 }

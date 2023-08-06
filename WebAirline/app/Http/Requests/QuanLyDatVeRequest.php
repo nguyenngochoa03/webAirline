@@ -29,7 +29,8 @@ class QuanLyDatVeRequest extends FormRequest
                 switch ($currentAction):
                     case "adddatve":
                         $rules = [
-                            "Name" => "required",
+                            "DiemKhoiHanh" => "required",
+                            "DiemDen" => "required",
                             "NgayDatVe" => "required|date", // Ví dụ: kiểm tra định dạng ngày
                             "NgayKhoiHanh" => "required|date", // Ví dụ: kiểm tra định dạng ngày
                             "SoLuong" => "required|integer", // Ví dụ: kiểm tra là số nguyên
@@ -38,12 +39,13 @@ class QuanLyDatVeRequest extends FormRequest
                         break;
                     case "editdatve":
                         $rules = [
-                            'Name' => 'required',
+                            "DiemKhoiHanh" => "required",
+                            "DiemDen" => "required",
                             'NgayDatVe' => 'nullable|date', // Cho phép để trống hoặc là định dạng ngày
                             'NgayKhoiHanh' => 'nullable|date', // Cho phép để trống hoặc là định dạng ngày
                             'SoLuong' => 'required|integer|min:1', // Kiểm tra là số nguyên và phải lớn hơn hoặc bằng 1
                             'GiaVe' => 'required|numeric|min:0', // Kiểm tra là số thực và phải lớn hơn hoặc bằng 0
-                        ] ;  
+                        ] ;
                         break;
                         default:
                         break;
@@ -55,7 +57,8 @@ class QuanLyDatVeRequest extends FormRequest
     public function messages()
 {
     return [
-        'Name.required' => 'Bắt buộc phải nhập tên.',
+        'DiemKhoiHanh.required' => 'Bắt buộc phải nhập điểm khởi hành.',
+        'DiemDen.required' => 'Bắt buộc phải nhập điểm đến.',
         'NgayDatVe.required' => 'Bắt buộc phải nhập ngày đặt vé.',
         'NgayDatVe.date' => 'Ngày đặt vé phải là định dạng ngày.',
         'NgayKhoiHanh.required' => 'Bắt buộc phải nhập ngày khởi hành.',

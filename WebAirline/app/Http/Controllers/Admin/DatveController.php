@@ -16,11 +16,12 @@ class DatveController extends Controller
          return view('admin.quanlydatve.list',compact('datvedata'));
      }
     public function adddatve(QuanLyDatVeRequest $request){
-        
+
         $title = 'Add vé máy bay';
         if ($request->post()){
             $data = new QuanLyDatVe();
-            $data->Name = $request->Name;
+            $data->DiemKhoiHanh = $request->DiemKhoiHanh;
+            $data->DiemDen = $request->DiemDen;
             $data->NgayDatVe = $request->NgayDatVe;
             $data->NgayKhoiHanh = $request->NgayKhoiHanh;
             $data->SoLuongVe = $request->SoLuong;
@@ -37,7 +38,8 @@ class DatveController extends Controller
     // Kiểm tra nếu là phương thức POST và xử lý khi người dùng submit form
     if ($request->isMethod('post')) {
         $data = QuanLyDatVe::find($MaDatVe);
-        $data->Name = $request->Name;
+        $data->DiemKhoiHanh = $request->DiemKhoiHanh;
+        $data->DiemDen = $request->DiemDen;
         $data->NgayDatVe = $request->NgayDatVe;
         $data->NgayKhoiHanh = $request->NgayKhoiHanh;
         $data->SoLuongVe = $request->SoLuong;

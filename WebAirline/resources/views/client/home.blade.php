@@ -250,7 +250,7 @@ End Overview
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start About
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<section class="about-section bg-overlay-base ptb-120 bg_img" data-background="assets/images/bg/bg-1.png">
+<section class="about-section bg-overlay-base ptb-120 bg_img" data-background="{{url('client/assets/images/bg/bg-1.png')}}">
     <div class="about-element">
         <img src={{url('client/assets/images/element/element-8.png')}}"" alt="element">
     </div>
