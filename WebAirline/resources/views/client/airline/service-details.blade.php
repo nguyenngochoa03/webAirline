@@ -42,9 +42,9 @@
             <div class="row justify-content-center align-items-center mb-30-none">
                 <div class="col-xl-6 col-lg-6 mb-30">
                     <div class="about-thumb">
-                        <img src="assets/images/about-four.png" alt="about">
+                        <img src="{{url('client/assets/images/about-four.png')}}" alt="about">
                         <div class="about-element-two">
-                            <img src="assets/images/element/element-15.png" alt="element">
+                            <img src="{{url('client/assets/images/element/element-15.png')}}" alt="element">
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="assets/images/bg/bg-2.png">
+    <section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="{{url('client/assets/images/bg/bg-2.png')}}">
         <div class="container">
             <div class="statistics-area">
                 <div class="row mb-30-none">
@@ -250,17 +250,17 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="gallery-item">
-                                    <img src="assets/images/gallery/gallery-1.png" alt="gallery">
+                                    <img src="{{url('client/assets/images/gallery/gallery-1.png')}}" alt="gallery">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="gallery-item">
-                                    <img src="assets/images/gallery/gallery-2.png" alt="gallery">
+                                    <img src="{{url('client/assets/images/gallery/gallery-2.png')}}" alt="gallery">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="gallery-item">
-                                    <img src="assets/images/gallery/gallery-3.png" alt="gallery">
+                                    <img src="{{url('client/assets/images/gallery/gallery-3.png')}}" alt="gallery">
                                 </div>
                             </div>
                         </div>
@@ -291,10 +291,10 @@
                     <div class="col-xl-6 mb-30">
                         <div class="feature-thumb-area">
                             <div class="feature-thumb">
-                                <img src="assets/images/feature/feature-1.png" alt="feature">
+                                <img src="{{url('client/assets/images/feature/feature-1.png')}}" alt="feature">
                             </div>
                             <div class="feature-thumb two">
-                                <img src="assets/images/feature/feature-2.png" alt="feature">
+                                <img src="{{url('client/assets/images/feature/feature-2.png')}}" alt="feature">
                                 <div class="feature-video-wrapper">
                                     <div class="video-main">
                                         <div class="promo-video">
@@ -325,7 +325,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-0">
                                     <div class="feature-item">
                                         <div class="feature-icon">
-                                            <img src="assets/images/icon/icon-2.png" alt="icon">
+                                            <img src="{{url('client/assets/images/icon/icon-2.png')}}" alt="icon">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="title">Safety Accred Aircraft.</h4>
@@ -336,7 +336,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-0">
                                     <div class="feature-item">
                                         <div class="feature-icon">
-                                            <img src="assets/images/icon/icon-14.png" alt="icon">
+                                            <img src="{{url('client/assets/images/icon/icon-14.png')}}" alt="icon">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="title">Anywhere. Any time.</h4>
@@ -347,7 +347,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-0">
                                     <div class="feature-item">
                                         <div class="feature-icon">
-                                            <img src="assets/images/icon/icon-15.png" alt="icon">
+                                            <img src="{{url('client/assets/images/icon/icon-15.png')}}" alt="icon">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="title">Flexible private flying.</h4>
@@ -358,7 +358,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-0">
                                     <div class="feature-item">
                                         <div class="feature-icon">
-                                            <img src="assets/images/icon/icon-16.png" alt="icon">
+                                            <img src="{{url('client/assets/images/icon/icon-16.png')}}" alt="icon">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="title">Modern Private Jet</h4>
@@ -383,7 +383,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="book-form-section ptb-120">
         <div class="container">
-            <div class="book-form-area bg-overlay-black bg_img" data-background="assets/images/bg/bg-3.png">
+            <div class="book-form-area bg-overlay-black bg_img" data-background="{{url('client/assets/images/bg/bg-3.png')}}">
                 <div class="row justify-content-center">
                     <div class="col-xl-12 text-center">
                         <div class="section-header white">
@@ -449,27 +449,27 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="brand-item">
-                                    <img src="assets/images/brand/brand-1.png" alt="brand">
+                                    <img src="{{url('client/assets/images/brand/brand-1.png')}}" alt="brand">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item">
-                                    <img src="assets/images/brand/brand-2.png" alt="brand">
+                                    <img src="{{url('client/assets/images/brand/brand-2.png')}}" alt="brand">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item">
-                                    <img src="assets/images/brand/brand-3.png" alt="brand">
+                                    <img src="{{url('client/assets/images/brand/brand-3.png')}}" alt="brand">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item">
-                                    <img src="assets/images/brand/brand-4.png" alt="brand">
+                                    <img src="{{url('client/assets/images/brand/brand-4.png')}}" alt="brand">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item">
-                                    <img src="assets/images/brand/brand-5.png" alt="brand">
+                                    <img src="{{url('client/assets/images/brand/brand-5.png')}}" alt="brand">
                                 </div>
                             </div>
                         </div>

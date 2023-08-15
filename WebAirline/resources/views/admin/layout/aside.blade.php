@@ -40,9 +40,9 @@
 
                 </li>
                 <li>
-                    <a href="layouts-sidebar-sm.html">
+                    <a href="{{route('route_student_list')}}">
                         <i class="la la-file-text-o"></i>
-                        <span>Quản lý chuyến bay</span>
+                        <span>Quản lý student</span>
                     </a>
 
                 </li>

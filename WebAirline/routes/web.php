@@ -1,11 +1,10 @@
 <?php
 
 use App\Http\Controllers\Admin\HomeController;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Admin\DichvuController;
-use App\Http\Controllers\Admin\GiamGiaController;
 use App\Http\Controllers\Client\ClientController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -64,6 +63,9 @@ Route::match(['GET','POST'], '/magiamgia/edit/{MaGiamGia}', [App\Http\Controller
     ->name('route_magiamgia_edit');
 Route::match(['GET','POST'], '/magiamgia/delete/{MaGiamGia}', [App\Http\Controllers\Admin\GiamGiaController::class,'deletemagiamgia'])
     ->name('route_magiamgia_delete');
+
+Route::match(['GET','POST'], '/student/list', [\App\Http\Controllers\Admin\StudentController::class,'liststudent'])
+        ->name('route_student_list');
 
 });
 

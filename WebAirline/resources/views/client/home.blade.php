@@ -11,16 +11,16 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section class="banner-section">
     <div class="banner-element" data-aos="fade-left" data-aos-duration="1200">
-        <img src={{url('client/assets/images/element/element-1.png')}} alt="element">
+        <img src="{{url('client/assets/images/element/element-1.png')}}" alt="element">
     </div>
     <div class="banner-element-two">
-        <img src={{url('client/assets/images/element/element-3.png')}} alt="element">
+        <img src="{{url('client/assets/images/element/element-3.png')}}" alt="element">
     </div>
     <div class="banner-element-three">
-        <img src={{url('client/assets/images/element/element-4.png')}} alt="element">
+        <img src="{{url('client/assets/images/element/element-4.png')}}" alt="element">
     </div>
     <div class="banner-element-four">
-        <img src={{url('client/assets/images/element/element-5.png')}} alt="element">
+        <img src="{{url('client/assets/images/element/element-5.png')}}" alt="element">
     </div>
     <div class="banner-social-area">
         <ul class="banner-social">
@@ -48,7 +48,7 @@
             </div>
             <div class="col-xxl-7 col-xl-6 col-lg-6 mb-30">
                 <div class="banner-thumb">
-                    <img src={{url('client/assets/images/element/element-2.png')}} alt="element">
+                    <img src="{{url('client/assets/images/element/element-2.png')}}" alt="element">
                 </div>
             </div>
         </div>
@@ -134,12 +134,12 @@ Start Overview
     <div class="container-fluid">
         <div class="overview-area">
             <div class="overview-element" data-aos="fade-up" data-aos-duration="1200">
-                <img src={{url('client/assets/images/element/element-6.png')}} alt="element">
+                <img src="{{url('client/assets/images/element/element-6.png')}}" alt="element">
             </div>
             <div class="overview-tab">
                 <nav>
                     <div class="overview-tab-thumb" data-aos="fade-left" data-aos-duration="1200">
-                        <img src={{url('client/assets/images/overview/overview-2.png')}} alt="overview">
+                        <img src="{{url('client/assets/images/overview/overview-2.png')}}" alt="overview">
                         <div class="nav-tab-area">
                             <div class="nav-tab-header">
                                 <span class="sub-title"><span>#1</span> Private Jet Charter</span>
@@ -171,7 +171,7 @@ Start Overview
                          aria-labelledby="private-jet-tab">
                         <div class="overview-item">
                             <div class="overview-thumb">
-                                <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
+                                <img src="{{url('client/assets/images/overview/overview-1.png')}}" alt="overview">
                                 <div class="overview-thumb-content">
                                     <h3 class="title"><a href="{{url('service')}}">Private Jet Charter</a>
                                     </h3>
@@ -189,7 +189,7 @@ Start Overview
                          aria-labelledby="business-jet-tab">
                         <div class="overview-item">
                             <div class="overview-thumb">
-                                <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
+                                <img src="{{url('client/assets/images/overview/overview-1.png')}}" alt="overview">
                                 <div class="overview-thumb-content">
                                     <h3 class="title"><a href="{{url('service')}}">Business Jet Charter</a>
                                     </h3>
@@ -207,7 +207,7 @@ Start Overview
                          aria-labelledby="private-helicopter-tab">
                         <div class="overview-item">
                             <div class="overview-thumb">
-                                <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
+                                <img src="{{url('client/assets/images/overview/overview-1.png')}}" alt="overview">
                                 <div class="overview-thumb-content">
                                     <h3 class="title"><a href="{{url('service')}}">Private Helicopter</a></h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
@@ -224,7 +224,7 @@ Start Overview
                          aria-labelledby="air-ambulance-tab">
                         <div class="overview-item">
                             <div class="overview-thumb">
-                                <img src={{url('client/assets/images/overview/overview-1.png')}} alt="overview">
+                                <img src="{{url('client/assets/images/overview/overview-1.png')}}" alt="overview">
                                 <div class="overview-thumb-content">
                                     <h3 class="title"><a href="{{url('service')}}">Air Ambulance</a></h3>
                                     <p>Trade crowded airports and wasted time for the ease, comfort, and
@@ -252,7 +252,7 @@ Start About
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section class="about-section bg-overlay-base ptb-120 bg_img" data-background="{{url('client/assets/images/bg/bg-1.png')}}">
     <div class="about-element">
-        <img src={{url('client/assets/images/element/element-8.png')}}"" alt="element">
+        <img src="{{url('client/assets/images/element/element-8.png')}}" alt="element">
     </div>
     <div class="container">
         <div class="row justify-content-center mb-30-none">
@@ -265,7 +265,7 @@ Start About
                         destination or taking back control of productivity and flight scheduling</p>
                     <div class="about-book-area">
                         <div class="about-book-element">
-                            <img src={{url('client/assets/images/element/element-7.png')}}"" alt="element">
+                            <img src="{{url('client/assets/images/element/element-7.png')}}" alt="element">
                         </div>
                         <div class="about-book-left">
                             <h3 class="call-title">Call for book an order</h3>
@@ -402,7 +402,7 @@ End Feature
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Start Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="assets/images/bg/bg-2.png">
+<section class="statistics-section bg-overlay-black ptb-120 bg_img" data-background="{{url('client/assets/images/bg/bg-2.png')}}">
     <div class="container">
         <div class="statistics-area">
             <div class="row mb-30-none">
@@ -486,7 +486,7 @@ Start Charter
                         <div class="swiper-slide">
                             <div class="charter-item">
                                 <div class="charter-thumb">
-                                    <img src={{url('assets/images/charter/charter-1.png')}}"" alt="charter">
+                                    <img src="{{url('client/assets/images/charter/charter-1.png')}}" alt="charter">
                                 </div>
                                 <div class="charter-content">
                                     <h3 class="title"><a href="deals-details.html">Private Jet Charter</a></h3>
@@ -505,7 +505,7 @@ Start Charter
                         <div class="swiper-slide">
                             <div class="charter-item">
                                 <div class="charter-thumb">
-                                    <img src={{url('assets/images/charter/charter-2.png')}} alt="charter">
+                                    <img src="{{url('client/assets/images/charter/charter-2.png')}}" alt="charter">
                                 </div>
                                 <div class="charter-content">
                                     <h3 class="title"><a href="deals-details.html">Business Jet Charter</a></h3>
@@ -524,7 +524,7 @@ Start Charter
                         <div class="swiper-slide">
                             <div class="charter-item">
                                 <div class="charter-thumb">
-                                    <img src={{url('assets/images/charter/charter-3.png')}} alt="charter">
+                                    <img src="{{url('client/assets/images/charter/charter-3.png')}}" alt="charter">
                                 </div>
                                 <div class="charter-content">
                                     <h3 class="title"><a href="deals-details.html">Private Helicopter</a></h3>
@@ -543,7 +543,7 @@ Start Charter
                         <div class="swiper-slide">
                             <div class="charter-item">
                                 <div class="charter-thumb">
-                                    <img src={{url('assets/images/charter/charter-4.png')}} alt="charter">
+                                    <img src="{{url('client/assets/images/charter/charter-4.png')}}" alt="charter">
                                 </div>
                                 <div class="charter-content">
                                     <h3 class="title"><a href="deals-details.html">Air Ambulance</a></h3>
@@ -656,7 +656,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src={{url('client/assets/images/package/package-9.png')}} alt="package">
+                                    <img src="{{url('client/assets/images/package/package-9.png')}}" alt="package">
                                     <div class="package-prize">
                                         <span>$115.00</span>
                                     </div>
@@ -690,7 +690,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src={{url('client/assets/images/package/package-10.png')}} alt="package">
+                                    <img src="{{url('client/assets/images/package/package-10.png')}}" alt="package">
                                     <div class="package-prize">
                                         <span>$110.00</span>
                                     </div>
@@ -713,7 +713,7 @@ Start Package
                                             <div class="package-video">
                                                 <a data-rel="lightcase:myCollection"
                                                    href="https://www.youtube.com/embed/Hw4ctvV25H0">
-                                                    <img src="{{url('assets/images/icon/icon-17.png')}}" alt="icon">
+                                                    <img src="{{url('client/assets/images/icon/icon-17.png')}}" alt="icon">
                                                 </a>
                                             </div>
                                         </div>
@@ -724,7 +724,7 @@ Start Package
                         <div class="swiper-slide">
                             <div class="package-item">
                                 <div class="package-thumb">
-                                    <img src={{url('client/assets/images/package/package-11.png')}} alt="package">
+                                    <img src="{{url('client/assets/images/package/package-11.png')}}" alt="package">
                                     <div class="package-prize">
                                         <span>$120.00</span>
                                     </div>
@@ -798,10 +798,10 @@ Start Client
                                     <div class="client-item">
                                         <div class="client-header">
                                             <div class="client-quote">
-                                                <img src={{url('client/assets/images/client/quote.png')}} alt="client">
+                                                <img src="{{url('client/assets/images/client/quote.png')}}" alt="client">
                                             </div>
                                             <div class="client-thumb">
-                                                <img src={{url('client/assets/images/client/client-3.png')}} alt="client">
+                                                <img src="{{url('client/assets/images/client/client-3.png')}}" alt="client">
                                             </div>
                                         </div>
                                         <div class="client-content">
@@ -829,10 +829,10 @@ Start Client
                                     <div class="client-item">
                                         <div class="client-header">
                                             <div class="client-quote">
-                                                <img src={{url('client/assets/images/client/quote.png')}} alt="client">
+                                                <img src="{{url('client/assets/images/client/quote.png')}}" alt="client">
                                             </div>
                                             <div class="client-thumb">
-                                                <img src={{url('client/aassets/images/client/client-4.png')}} alt="client">
+                                                <img src="{{url('client/aassets/images/client/client-4.png')}}" alt="client">
                                             </div>
                                         </div>
                                         <div class="client-content">
@@ -862,7 +862,7 @@ Start Client
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="client-right-thumb">
-                        <img src={{url('client/assets/images/client/client-big.png')}} alt="client">
+                        <img src="{{url('client/assets/images/client/client-big.png')}}" alt="client">
                         <div class="client-thumb-overlay">
                             <div class="video-main">
                                 <div class="promo-video">
@@ -900,27 +900,27 @@ Start Brand
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src={{url('client/assets/images/brand/brand-1.png')}} alt="brand">
+                                <img src="{{url('client/assets/images/brand/brand-1.png')}} "alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src={{url('client/assets/images/brand/brand-2.png')}} alt="brand">
+                                <img src="{{url('client/assets/images/brand/brand-2.png')}}" alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src={{url('client/assets/images/brand/brand-3.png')}} alt="brand">
+                                <img src="{{url('client/assets/images/brand/brand-3.png')}}" alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src={{url('client/assets/images/brand/brand-4.png')}} alt="brand">
+                                <img src="{{url('client/assets/images/brand/brand-4.png')}}" alt="brand">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-item">
-                                <img src={{url('client/assets/images/brand/brand-5.png')}} alt="brand">
+                                <img src="{{url('client/assets/images/brand/brand-5.png')}}" alt="brand">
                             </div>
                         </div>
                     </div>
@@ -951,7 +951,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src={{url('client/assets/images/blog/blog-1.png')}} alt="blog">
+                        <img src="{{url('client/assets/images/blog/blog-1.png')}}" alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">
@@ -971,7 +971,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src={{url('client/assets/images/blog/blog-2.png')}} alt="blog">
+                        <img src="{{url('client/assets/images/blog/blog-2.png')}}" alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">
@@ -991,7 +991,7 @@ Start Blog
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-thumb">
-                        <img src={{url('client/assets/images/blog/blog-3.png')}} alt="blog">
+                        <img src="{{url('client/assets/images/blog/blog-3.png')}}" alt="blog">
                     </div>
                     <div class="blog-content">
                         <div class="blog-post-meta">

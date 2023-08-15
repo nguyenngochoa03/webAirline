@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/WebAirline/tests/Unit" />
         <option value="$PROJECT_DIR$/WebAirline/tests/Feature" />
+        <option value="$PROJECT_DIR$/ontap_php3/optapphp3/tests/Unit" />
+        <option value="$PROJECT_DIR$/ontap_php3/optapphp3/tests/Feature" />
       </list>
     </option>
   </component>

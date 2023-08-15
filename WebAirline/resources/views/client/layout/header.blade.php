@@ -23,7 +23,7 @@
                                 </li>
                                 <li class="menu_has_children"><a href="{{url('blog')}}">Blog</a>
                                 </li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{url('logout')}}">Logout</a></li>
                                 <li><a href="{{url('login')}}">Sign Up</a></li>
                             </ul>
                             <div class="header-right">
